@@ -115,14 +115,36 @@ to{
 #chefs {
     height: 600px;
 }
-#chef-1, #chef-2 {padding-top: 30px;
-width: 33%;
-float: left;
-background-color: blue;
+#chef-1, #chef-2 {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    color:white
 }
+
 #chef-3, #chef-4 {
-padding-top: 30px;
-width: 33%;
-float: right;
-background-color: silver;
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.leftchef-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
