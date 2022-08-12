@@ -121,32 +121,32 @@ to{
 }
 /* Chefs section */
 
-#chefs {
+#reasons {
     height: 600px;
 }
 
-#chef-1 {
+#reason-1 {
     padding-top: 30px;
     width: 33%;
     float: left;
     background-color:rgb(161, 57, 57);
    
 }
- #chef-2 {
+ #reason-2 {
  padding-top: 30px;
  width: 33%;
  float: left;
  background-color:rgb(161, 57, 57);
 
  }
-#chef-3 {
+#reason-3 {
     padding-top: 30px;
     width: 33%;
     float: right;
     background-color: rgb(253, 92, 92);
    
 }
-#chef-4 { 
+#reason-4 { 
     padding-top: 30px;
     width: 33%;
     float: right;
@@ -163,7 +163,7 @@ hr {
 } 
 
 
-.leftchef-about-heading {
+.leftreason-about-heading {
   width: 60%;
     float: right;
     line-height: 20px;
@@ -171,7 +171,7 @@ hr {
     margin-bottom: 50px;
     }
 
-.rightchef-about-heading {
+.rightreason-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
@@ -179,12 +179,38 @@ hr {
     margin-bottom: 50px;
 }
 
-.rightchef-about-heading h2 {
+.rightreason-about-heading h2 {
     text-align: right;
 }
 
-.rightchef-about-heading p {
+.rightreason-about-heading p {
     text-align: right;
 }
 
+
+#um {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+#chefs {
+    display: inline-flex;
+    position:absolute;
+    justify-items: center;
+    vertical-align: middle;
+}
+.descriptionchef {
+    vertical-align: middle;
+
+}
 
