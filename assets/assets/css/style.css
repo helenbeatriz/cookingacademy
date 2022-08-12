@@ -13,11 +13,19 @@ body {
 
 }
 
-h1,h2 {
+ h1 {
     font-family: Barlow, sans-serif;
     text-transform:uppercase; 
     letter-spacing: 2px;
     color: white;
+}
+
+h2 {
+    font-family: Barlow, sans-serif;
+    text-transform:uppercase; 
+    letter-spacing: 2px;
+    color: white;
+
 }
 
 #logo {
@@ -93,6 +101,7 @@ to{
     transform: scale(1.5);
 }
 }
+
 #cover-text {
     font-size: 130%;
     font-family: 'Courier New', Courier, monospace;
@@ -115,36 +124,67 @@ to{
 #chefs {
     height: 600px;
 }
-#chef-1, #chef-2 {
+
+#chef-1 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    color:white
+    background-color:rgb(161, 57, 57);
+   
 }
+ #chef-2 {
+ padding-top: 30px;
+ width: 33%;
+ float: left;
+ background-color:rgb(161, 57, 57);
 
-#chef-3, #chef-4 {
+ }
+#chef-3 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+    background-color: rgb(253, 92, 92);
+   
+}
+#chef-4 { 
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: rgb(253, 92, 92);
+   
+
 }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
-}
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #b66666;
     width: 100%;
-    margin: 5px 0;
-}
+    margin: 2px 0;
+} 
+
 
 .leftchef-about-heading {
-    width: 60%;
+  width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    }
+
+.rightchef-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
+
+.rightchef-about-heading h2 {
+    text-align: right;
+}
+
+.rightchef-about-heading p {
+    text-align: right;
+}
+
+
