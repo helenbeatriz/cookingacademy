@@ -117,14 +117,12 @@ to{
     bottom: 30px;
     right: 150px;
 
-    position: absolute;
 }
 /* Chefs section */
 
 #reasons {
-    height: 600px;
-
-  
+    display: inline-flex;
+    
 }
 
 #reason-1 {
@@ -159,9 +157,8 @@ to{
 
 
 hr {
-    border-top: 1px solid #b66666;
-    width: 100%;
-    margin: 2px 0;
+    width: 300px;
+    border: 1px solid #000;
 } 
 
 
@@ -181,13 +178,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.rightreason-about-heading h2 {
-    text-align: right;
-}
 
-.rightreason-about-heading p {
-    text-align: right;
-}
 
 
 #um {
@@ -206,9 +197,10 @@ hr {
 }
 
 /*chefs section */
+
 #chefs {
     display: inline-flex;
-    position:absolute;
+
     justify-items: center;
     vertical-align: middle;
 }
@@ -217,3 +209,70 @@ hr {
 
 }
 
+#class {
+    display: inline-flex;
+}
+/*footer */
+footer {
+    text-align: center;
+}
+
+#linha-vertical {
+    height: 200px;
+    border-right: 1px solid red;
+}
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/*images for gallery*/
+
+#photos {
+        display: inline;
+        clear: both;
+        flex: 50%;
+        padding: 0 4px;
+        column-count: 4;
+    
+    
+      }
+      
+      #photos img {
+        width: 30%;
+        column-gap: 0;
+      }
+
+      @media screen and (max-width: 1200px) {
+        #chefs{
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+    
+        #welcome {
+            padding: 30px 0;
+            margin: 0;
+        }
+    
+        #chefleft-about, #chefright-about {
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+    
+    
+        hr {
+            display: none;
+        }
+    }
