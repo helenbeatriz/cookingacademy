@@ -290,3 +290,55 @@ footer {
         margin: 0 auto;
     }
 
+    /*form */
+form {
+    clear: both;
+    color: yellow;
+    background-image:url('/assets/assets/images/chefcooking.jpg');
+    background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: cover;
+    
+}
+.contact-form {
+    width: auto;
+    height: 500px;	
+	border: none;
+	border-radius: 100px;
+	padding: 50px;
+	font-size: 30px;
+	color: #ffffff;
+    font-weight: bold;
+	border: solid 3px #e27100;	
+}
+	
+    input, textarea {
+        width: 500px;	
+        height: 100px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        padding: 10px;
+        font-family: 'Sniglet', cursive;
+        font-size: 1em;
+        color: #000000;
+        transition: border 0.5s;
+        -webkit-transition: border 0.5s;
+        -moz-transition: border 0.5s;
+        -o-transition: border 0.5s;
+        border: solid 3px #020303;	
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        
+}
+.submit-button  
+        {
+        background-color: rgbargb(222, 145, 12) 20;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        padding: 0 60px;
+        height: 60px;
+        border: none;
+        }
