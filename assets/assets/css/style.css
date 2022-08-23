@@ -14,17 +14,17 @@ body {
 
 }
 
- h1 {
+h1 {
     font-family: Barlow, sans-serif;
-    text-transform:uppercase; 
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
-    
+
 }
 
 h2 {
     font-family: Barlow, sans-serif;
-    text-transform:uppercase; 
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
 
@@ -36,25 +36,31 @@ h2 {
     margin-left: 30px;
     clear: both;
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
-    
+
 
 }
+
 #menu {
-font-size: 110%;
-letter-spacing: 4px;
-color: rgb(243, 244, 244);
+    font-size: 110%;
+    letter-spacing: 4px;
+    color: rgb(243, 244, 244);
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-#menu a { 
+
+#menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
     padding: 10px 15px;
     font-size: 20px;
@@ -66,6 +72,7 @@ color: rgb(243, 244, 244);
     border-radius: 5px;
     box-shadow: 0 5px rgb(162, 155, 155);
 }
+
 .active {
     border-bottom: 1px solid rgb(245, 237, 237);
 }
@@ -77,9 +84,11 @@ color: rgb(243, 244, 244);
     height: 600px;
     width: 100%;
 }
-/* text box for background-image */ 
 
-#cover-text, #cover-text h2{
+/* text box for background-image */
+
+#cover-text,
+#cover-text h2 {
     color: rgb(249, 249, 249);
 
 }
@@ -87,10 +96,10 @@ color: rgb(243, 244, 244);
 #background {
     height: 500px;
     width: 100%;
-    background:url(../images/cover.jpg) no-repeat center;
-    background-size:cover;
+    background: url(../images/cover.jpg) no-repeat center;
+    background-size: cover;
 
-/* effects for the background */
+    /* effects for the background */
     animation-name: hero-zoom;
     animation-duration: 20s;
     animation-fill-mode: forwards;
@@ -98,12 +107,13 @@ color: rgb(243, 244, 244);
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-from{
-    transform: scale(1);
-}
-to{
-    transform: scale(1.5);
-}
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
 }
 
 #cover-text {
@@ -126,50 +136,42 @@ to{
     position: absolute;
 }
 
+.reason-header {
+    width: 33%;
+    height: 100%;
 
-
-.reasons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #fff;
-  grid-template-columns: repeat(2, 1fr);
- 
 }
 
-.reasons-images {
+div.reasons {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+
 }
+
+.reasons-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
 .reasons h3 {
     padding: 2px;
-    display:flexbox;
+    display: flex;
     text-align: center;
     justify-content: space-around;
     border: 2px solid #ffaa00;
     width: auto;
     height: fit-content;
 }
-.img1 {
-    width: 300px;
-    height: 400px;
-    padding: 10px;
-    text-align: center;
-}    
-   
 
-.img2 {
-    width: 300px;
-    height: 400px;
-    padding: 20px;    
-}    
-  
-
-.img3 {
-    width: 300px;
-    height: 400px;
-    padding: 10px;
-}  
 
 
 /*chefs section */
@@ -178,14 +180,18 @@ to{
     width: 100%;
     margin: right;
     bottom: auto;
-    text-align:center;
+    text-align: center;
     clear: both;
     font-size: large;
-    
+
 }
 
 
-#chefs, .chef-1, .chef-2, .chef-3, .chef-4  {
+#chefs,
+.chef-1,
+.chef-2,
+.chef-3,
+.chef-4 {
     clear: both;
     padding: 15px;
     margin: 0;
@@ -211,18 +217,18 @@ to{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
+
 }
 
 figcaption {
     width: auto;
-    
+
     padding: 5px;
     text-align: center;
 }
 
-    
-    
+
+
 
 /*footer */
 footer {
@@ -231,17 +237,18 @@ footer {
 
 .copyright {
     color: whitesmoke;
-} 
+}
 
 #linha-vertical {
     height: 200px;
     border-right: 1px solid red;
 }
+
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -257,140 +264,158 @@ footer {
 #photos {
     clear: both;
     column-count: 4;
-    display:inline-block;
+    display: inline-block;
     text-align: center;
 }
 
-      
-      #photos img {
-        width: 80%;
-    
-      }
 
-      @media screen and (max-width: 1200px) {
-        #descriptionchef {
-            display: flex;
-            width: 65%;
-            height: 1200px;
-            margin: 0 auto;
-        }
-    
-        #welcome {
-            padding: 30px 0;
-            margin: 0;
-        }
-    
-        #um {
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-    
-    
-        hr {
-            display: none;
-        }
-    }
-    @media screen and (max-width: 950px) {
+#photos img {
+    width: 80%;
 
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        } }
-        @media screen and (max-width: 800px) {
-            #photos {
-                column-count: 2;
-            }
-        
-        form {
-            display: grid;
-            grid-template-columns:auto;
-            grid-template-rows:auto;
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-
-    }
-    input, text {
-        width: 10%;
-    }
-  
 }
 
-    /*form */
+@media (max-width: 800px) {
+    #photos {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #descriptionchef {
+        display: flex;
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #um {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    div.reasons {
+        flex-direction: column;
+
+    } 
+} /* do the same to the images add > width =100%*/
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+    form {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+}
+
+/*form */
 
 form {
     clear: both;
-    color: yellow;
-    background-image:url('/assets/assets/images/chefcooking.jpg');
+    background-image: url('/assets/assets/images/chefcooking.jpg');
     background-size: cover;
     background-position: center;
-    height: 90vh;
-    margin-left: auto;
-    margin-right: auto;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: #fff;
+    padding: 3rem;
+
 }
+
+
 .contact-form {
-    width: 900px;
-    height: 500px;	
-	border: none;
-	border-radius: 50px;
-	padding: 20px;
-	font-size: 30px;
-	color: #ffffff;
+    flex-direction: column;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff;
     font-weight: bold;
-	border: solid 3px #e27100;	
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-	
-    input, text {
-  background: transparent;
-  color: #fafafa;
-  width: 20%;
-  height: 30px;
-  
-  border: 1px solid #fafafa;
-  border-radius: 50px;
-    
-  margin-left: auto;
-  margin-right: auto;
+    border: solid 3px #e27100;
+    width: 100%;
+
 
 }
 
-.submit-button  
-        {
-            margin-top: 20px;
-            border-radius: 2px;
-            padding: 9px 9px 14px 9px;
-            text-align: center;
-            font-size: 60%;
-            background-color: #f4a317;
-            color: #ffffff;
-            display: block;
-            border-radius: 50px;
-            margin-left: 30%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .submit-button:hover {
-            background-color: #ffb909;
-            color: #ffffff;
-          }
-       
-    #comment {
-        width: 500px;	
-        height: 90px;
-        margin-top: 20px;
-    }
+input,
+text {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+
+}
+
+
+.submit-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #ffb909;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background-color: #fffffff1;
+}
+
+
+.submit-button:hover {
+    background-color: #ffb909;
+    color: #ffffff;
+}
+
+      
+#comment {
+    width: 60%;	
+    height: 80%;
+    margin-top: 20px;
+}
+
+
 
 /* Contact page textblock media query for mobile wider than 375px */
-@media only screen and (min-width: 23.4375em) {
-    .contact-info {
+@media only screen and (max-width: 1064px) {
+    .contact-form {
         width: 250px;
+        display: flex;
+        flex-direction: column;
     }
 }
-
